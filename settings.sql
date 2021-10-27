@@ -1,0 +1,5 @@
+DROP DATABASE poems;
+DROP USER poemsuser;
+CREATE DATABASE poems;
+CREATE USER poemsuser WITH PASSWORD 'poems';
+GRANT ALL PRIVILEGES ON DATABASE poems TO poemsuser;
